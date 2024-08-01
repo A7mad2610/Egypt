@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient( to right,#1f313bfb,#57272855 )
+    ,url(image/Pyramids\ of\ Giza\ Camels\ _\ AI\ Digital\ Download\ _\ Digital\ Art\ _\ Digital\ Image\ _\ Landmark.jfif);
+    background-position: center;
+    background-size: cover;
+}
+.login-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 480px;
+    height: 440px;
+    padding: 30px;
+    background:rgb(255, 255, 255,0.1);
+    border-radius: 20px;
+}
+.login-header{
+    text-align: center;
+    margin: 20px 0 40px 0;
+}
+.login-header header{
+    color: rgb(84, 24, 24);
+    font-size: 30px;
+    font-weight: 600;
+}
+.input-box ,.input-field{
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    padding: 0 25px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    border: none;
+    box-shadow:   rgb(0, 0,0,0.1) ;
+    outline: none;
+    transition: 0.5s;
+}
+::placeholder{
+    color: rgba(112, 67, 7, 0.436);
+    font-weight: 500;
+}
+.input-field:focus{
+    scale: 1.2;
+}
+.forgot{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+section{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color:rgba(85, 2, 2, 0.797) ;
+}
+a{
+    color:rgba(88, 2, 2, 0.87) ;
+    text-decoration: none;
+}
+#check{
+    margin-right: 10px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.input-submit{
+    position: relative;
+}
+input{
+    background-image: linear-gradient(to left, rgba(95, 31, 3, 0.377) , #9a1f0051) ;
+}
+.submit-btn{
+    width: 100%;
+    height: 60px;
+    background-image:linear-gradient(to left, rgb(95, 31, 3) , #9a1f00aa) ;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.submit-btn:hover{
+    background: rgb(79, 4, 4);
+    scale: 1.05;
+}
+.input-submit label{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: rgb(34, 1, 1);
+}
+.sign-up-link{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.sign-up-link a{
+    font-weight: 600;
+}
+.sign-up-link p{
+    color: rgb(56, 9, 9);
+}
